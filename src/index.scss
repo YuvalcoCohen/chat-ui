@@ -1,0 +1,266 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+  .spotim-header {
+    text-align: center;
+    background-color: #0082DD;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    .spotim-title {
+      font-size: 1.5em;
+    }
+  }
+  .message-list-area{
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(160, 185, 202);
+    height: 310px;
+    padding: 20px;
+    color: black;
+    #my-message{
+      background-color: rgb(83, 161, 216);
+	    padding: 20px;
+	    width: 80%;
+	    margin-bottom: 20px;
+      margin-left: 20%;  
+      font-size: 1em;
+      text-align: left;
+      #my-message-details{
+        margin-bottom: 5px;
+      }
+    }
+    
+    #other-user-message{
+      background-color: rgb(214, 214, 214);
+	    padding: 20px;
+	    width: 80%;
+	    margin-bottom: 20px;
+      //margin-left: 20%;  //maybe delete
+      font-size: 1em;
+      text-align: left;
+      #other-user-message-details{
+        margin-bottom: 5px;
+      }
+    }
+    
+  }
+  p#thing1{
+    background-image: url(assets/avatar1.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  p#thing2{
+    background-image: url(assets/avatar2.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  p#thing3{
+    background-image: url(assets/avatar3.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  p#thing4{
+    background-image: url(assets/avatar4.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  p#thing5{
+    background-image: url(assets/avatar5.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  p#thing6{
+    background-image: url(assets/avatar6.jpg);
+    border-color: white;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+  }
+  
+  #avatar-select{
+    margin-right: 60%;
+    margin-bottom: 30px;
+  }
+  input[type=text] {
+    width: 40%;
+    height: 20px;
+    }
+  
+  input[type=radio] {
+    display:none;
+    }
+  label#pickAv{
+    font-size: 1em;    
+  }
+     
+    input#thing1[type=radio] + label
+    {
+    background-image: url(assets/avatar1.jpg);
+    border-color:  rgb(0, 0, 0);
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing2[type=radio] + label
+    {
+    background-image: url(assets/avatar2.jpg);
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing3[type=radio] + label
+    {
+    background-image: url(assets/avatar3.jpg);
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing4[type=radio] + label
+    {
+    background-image: url(assets/avatar4.jpg);
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing5[type=radio] + label
+    {
+    background-image: url(assets/avatar5.jpg);
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing6[type=radio] + label
+    {
+    background-image: url(assets/avatar6.jpg);
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing1[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing2[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing3[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing4[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing5[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+    input#thing6[type=radio]:checked + label
+    {
+    border-color: red;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    }
+  
+  
+  .message-creation-area{
+    text-align: center;
+    background-color: #0082DD;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    .textField-for-username {
+      float:left;
+      width:30%;
+      font-size: 1em;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+    .avatar-select{
+      float:left;
+      width:70%;
+      text-align: left;
+      }
+    
+
+  }
+  
+}
+
+
+
+
+
+
